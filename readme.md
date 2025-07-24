@@ -2,7 +2,21 @@
 
 **Vaccine** is a command-line tool for detecting SQL injection vulnerabilities in web applications. It automates the process of testing URLs for various types of SQL Injection flaws, helping developers and security professionals pinpoint and mitigate risks in their systems. Vaccine offers a comprehensive suite of tests, including time-based, error-based, and union-based injections, and can identify the underlying database engine. If a vulnerability is found, Vaccine can extract valuable information such as vulnerable parameters, database names, table names, column names, and (planned) perform a complete database dump.
 
+
 ![STOLEN_TABLE](https://github.com/ftTower/ftTower/blob/main/assets/Vaccine/stolen_table.png)
+
+## Table of Contents
+
+1. [Features](#features)
+2. [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+3. [Configuration](#configuration)
+4. [Usage](#usage)
+5. [How it Works](#how-it-works)
+6. [Makefile Commands](#makefile-commands)
+7. [Sources](#sources)
+8. [Disclaimer](#disclaimer)
 
 ---
 
@@ -120,6 +134,15 @@ Run Vaccine from the command line:
 - `make clean`: Remove Python bytecode and `__pycache__`
 - `make fclean`: Clean project and labs
 - `make re`: Rebuild and restart everything
+
+---
+
+## SOURCES
+- [to know](https://www.vaadata.com/blog/fr/injections-sql-principes-impacts-exploitations-bonnes-pratiques-securite/)
+- [video about sql](https://www.vaadata.com/blog/fr/injections-sql-principes-impacts-exploitations-bonnes-pratiques-securite/)
+- [tutorial](https://www.linuxsec.org/2014/03/tutorial-basic-sql-injection.html)
+- [request](https://realpython.com/python-requests/#getting-started-with-pythons-requests-library)
+- [beautifulSoup](https://www.scraperapi.com/blog/python-beautifulsoup-find-and-findall-methods/)
 
 ---
 
