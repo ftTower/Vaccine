@@ -84,13 +84,13 @@ Run Vaccine from the command line:
 
 - Basic GET request scan:
     ```bash
-    ./vaccine http://localhost:1338/Less-1/
+    ./vaccine http://localhost:1338/
     ```
 ![GET](https://github.com/ftTower/ftTower/blob/main/assets/Vaccine/get_interface.png)
 
 - Scan with POST method and custom output file:
     ```bash
-    ./vaccine -X POST -o my_scan_results.json http://localhost:1338/Less-11/
+    ./vaccine -X POST -o my_scan_results.json http://localhost:1338/
     ```
 ![POST](https://github.com/ftTower/ftTower/blob/main/assets/Vaccine/post_interface.png)
 
